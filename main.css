@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.chess-container {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.chess-piece {
+    width: 37.5px;
+    height: 37.5px;
+    display: inline-block;
+    margin-right: -5px;
+    margin-bottom: -4.5px;
+    position: relative;
+}
+
+.chess-piece i {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+.chess-piece:nth-child(8n+1) {
+    margin-left: -5px;
+}
+
+.black {
+    background-color: #aaaaaa;
+}
+
+.whitesmoke {
+    color: #dbd9d9;
+}
