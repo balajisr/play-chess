@@ -46,3 +46,22 @@
 .whitesmoke {
     color: #dbd9d9;
 }
+
+/*** RESPONSIVE LAYOUT ***/
+/* IPAD & TABLETS */
+
+@media only screen and (min-width: 767px) {
+    .chess-container {
+        width: 600px;
+        height: 600px;
+    }
+
+    .chess-piece {
+        width: 75px;
+        height: 75px;
+    }
+
+    .chess-piece i {
+        font-size: 48px;
+    }
+}
