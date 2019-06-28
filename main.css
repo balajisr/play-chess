@@ -17,8 +17,6 @@
     -moz-box-shadow: 0 0 10px 10px #cccccc;
     -webkit-box-shadow: 0 0 10px 10px#cccccc;
     box-shadow: 0 0 10px 10px #cccccc;
-    padding-top: 2px;
-    padding-left: 2px;
 }
 
 .chess-piece {
