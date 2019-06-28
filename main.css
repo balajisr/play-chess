@@ -13,7 +13,12 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    -moz-box-shadow: 0 0 10px 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px 10px#cccccc;
+    box-shadow: 0 0 10px 10px #cccccc;
+    padding-top: 2px;
+    padding-left: 2px;
 }
 
 .chess-piece {
